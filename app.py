@@ -12,12 +12,32 @@ st.set_page_config(
     layout="wide"
 )
 
-# ---------------- CUSTOM DESIGN ----------------
+ROOT = Path(__file__).resolve().parent
+MODEL_FILE = ROOT / "models" / "best_model.pkl"
+DATA_FILE = ROOT / "data" / "food_data.csv"
+METRICS_FILE = ROOT / "models" / "metrics.json"
+
+
+# ---------------- ANIMATED DESIGN ----------------
 st.markdown("""
 <style>
-/* Main background */
+/* Animated gradient background */
 .stApp {
-    background: linear-gradient(135deg, #f0fdf4 0%, #fffbeb 100%);
+    background: linear-gradient(
+        -45deg,
+        #ecfdf5,
+        #fefce8,
+        #dcfce7,
+        #fff7ed
+    );
+    background-size: 300% 300%;
+    animation: gradientMove 15s ease infinite;
+}
+
+@keyframes gradientMove {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 /* Main content spacing */
@@ -26,10 +46,30 @@ st.markdown("""
     padding-bottom: 2rem;
 }
 
-/* Main headings */
-h1, h2, h3 {
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(18px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Title animation */
+h1 {
+    color: #166534 !important;
+    font-weight: 800 !important;
+    animation: fadeIn 1s ease-out;
+}
+
+/* Heading styles */
+h2, h3 {
     color: #166534 !important;
     font-weight: 700 !important;
+    animation: fadeIn 0.8s ease-out;
 }
 
 /* Paragraphs */
@@ -37,9 +77,22 @@ h1, h2, h3 {
     color: #374151;
 }
 
-/* Sidebar */
+/* Sidebar gradient */
 [data-testid="stSidebar"] {
-    background: linear-gradient(180deg, #dcfce7, #fef3c7);
+    background: linear-gradient(
+        180deg,
+        #dcfce7,
+        #fef3c7,
+        #d1fae5
+    );
+    background-size: 100% 200%;
+    animation: sidebarGlow 10s ease infinite;
+}
+
+@keyframes sidebarGlow {
+    0% { background-position: 0% 0%; }
+    50% { background-position: 0% 100%; }
+    100% { background-position: 0% 0%; }
 }
 
 [data-testid="stSidebar"] h1,
@@ -48,30 +101,44 @@ h1, h2, h3 {
     color: #14532d !important;
 }
 
-/* Buttons */
+/* Animated buttons */
 .stButton > button {
     background: linear-gradient(90deg, #16a34a, #15803d);
+    background-size: 200% auto;
     color: white;
     border: none;
-    border-radius: 10px;
-    padding: 0.65rem 1rem;
+    border-radius: 12px;
+    padding: 0.7rem 1rem;
     font-weight: 700;
-    transition: 0.2s;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(22, 163, 74, 0.18);
 }
 
 .stButton > button:hover {
-    background: #166534;
+    background-position: right center;
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 8px 18px rgba(22, 163, 74, 0.3);
     color: white;
-    border: none;
 }
 
-/* Metric cards */
+.stButton > button:active {
+    transform: scale(0.98);
+}
+
+/* Metric card hover animation */
 [data-testid="stMetric"] {
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 255, 0.94);
     padding: 20px;
     border-radius: 16px;
     border: 1px solid #bbf7d0;
     box-shadow: 0 4px 12px rgba(22, 101, 52, 0.08);
+    animation: fadeIn 0.8s ease-out;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+[data-testid="stMetric"]:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 24px rgba(22, 101, 52, 0.16);
 }
 
 [data-testid="stMetricLabel"] {
@@ -84,45 +151,79 @@ h1, h2, h3 {
     font-weight: 800;
 }
 
-/* Alerts */
-[data-testid="stAlert"] {
-    border-radius: 12px;
-}
-
 /* Data tables */
 [data-testid="stDataFrame"] {
     border: 1px solid #bbf7d0;
     border-radius: 12px;
+    animation: fadeIn 0.8s ease-out;
 }
 
-/* Input boxes */
+/* Alerts */
+[data-testid="stAlert"] {
+    border-radius: 12px;
+    animation: fadeIn 0.6s ease-out;
+}
+
+/* Input controls */
 .stSelectbox, .stNumberInput {
     border-radius: 10px;
 }
 
-/* Horizontal dividers */
+/* Dividers */
 hr {
     border-color: #bbf7d0;
 }
 
+/* Floating leaves decoration */
+.leaf-container {
+    position: fixed;
+    top: 12%;
+    right: 2%;
+    z-index: 0;
+    pointer-events: none;
+    font-size: 30px;
+    opacity: 0.45;
+    animation: floatLeaf 5s ease-in-out infinite;
+}
+
+@keyframes floatLeaf {
+    0%, 100% {
+        transform: translateY(0px) rotate(-8deg);
+    }
+    50% {
+        transform: translateY(-18px) rotate(10deg);
+    }
+}
+
 /* Footer */
 .footer {
-    background: #166534;
+    background: linear-gradient(90deg, #14532d, #15803d);
     color: white;
     text-align: center;
-    padding: 15px;
-    border-radius: 12px;
-    margin-top: 25px;
+    padding: 18px;
+    border-radius: 14px;
+    margin-top: 28px;
+    box-shadow: 0 5px 16px rgba(20, 83, 45, 0.2);
+    animation: fadeIn 1s ease-out;
+}
+
+.footer p {
+    color: white !important;
+}
+
+/* Respect reduced-motion accessibility setting */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
 }
 </style>
+
+<div class="leaf-container">🌿 🍃</div>
 """, unsafe_allow_html=True)
-
-
-# ---------------- PROJECT PATHS ----------------
-ROOT = Path(__file__).resolve().parent
-MODEL_FILE = ROOT / "models" / "best_model.pkl"
-DATA_FILE = ROOT / "data" / "food_data.csv"
-METRICS_FILE = ROOT / "models" / "metrics.json"
 
 
 # ---------------- HEADER ----------------
@@ -130,8 +231,10 @@ st.title("🥗 FoodWise AI")
 st.subheader("🌱 AI-Based Food Waste Prediction & Prevention System")
 
 st.markdown("""
-Welcome to **FoodWise AI**! Predict meal demand, plan food preparation,
-and make smarter decisions to help reduce potential food waste.
+Welcome to **FoodWise AI**!
+
+Predict meal demand, plan food preparation, and make smarter decisions
+to help reduce potential food waste. 🌍
 """)
 
 st.divider()
@@ -139,9 +242,8 @@ st.divider()
 
 # ---------------- LOAD MODEL ----------------
 if not MODEL_FILE.exists():
-    st.error("⚠️ Machine learning model not found.")
-    st.info("Run these commands from your project folder to generate the model:")
-
+    st.warning("⚠️ Machine learning model not found.")
+    st.info("Run these commands from your project folder:")
     st.code(
         "python -m src.generate_data\n"
         "python -m src.train_model\n"
@@ -157,7 +259,7 @@ except Exception as error:
     st.stop()
 
 
-# ---------------- SIDEBAR INPUTS ----------------
+# ---------------- SIDEBAR ----------------
 st.sidebar.title("🍽️ Meal Planner")
 st.sidebar.markdown("### Enter Tomorrow's Details")
 
@@ -219,29 +321,20 @@ if predict_clicked:
         col1, col2, col3 = st.columns(3)
 
         with col1:
-            st.metric(
-                "👩‍🎓 Expected Students",
-                f"{students:,}"
-            )
+            st.metric("👩‍🎓 Expected Students", f"{students:,}")
 
         with col2:
-            st.metric(
-                "🤖 Predicted Meals Needed",
-                f"{predicted:,}"
-            )
+            st.metric("🤖 Predicted Meals Needed", f"{predicted:,}")
 
         with col3:
-            st.metric(
-                "🍱 Planned Meals",
-                f"{planned:,}"
-            )
+            st.metric("🍱 Planned Meals", f"{planned:,}")
 
         st.markdown("### 💡 Smart Recommendation")
 
         if surplus > 0:
             st.warning(
                 f"🍱 Potential surplus: **{surplus:,} meals**. "
-                "Consider reducing preparation after checking attendance "
+                "Consider adjusting preparation after checking attendance "
                 "and actual demand."
             )
 
@@ -252,9 +345,7 @@ if predict_clicked:
             )
 
         else:
-            st.success(
-                "✅ Your planned meals match the predicted demand!"
-            )
+            st.success("✅ Your planned meals match the predicted demand!")
 
         st.progress(min(surplus_percentage / 100, 1.0))
 
@@ -264,7 +355,7 @@ if predict_clicked:
         )
 
         st.caption(
-            "Note: Predictions are model estimates, not guaranteed outcomes. "
+            "Predictions are model estimates, not guaranteed outcomes. "
             "Verify them against actual canteen records."
         )
 
@@ -294,7 +385,7 @@ if DATA_FILE.exists():
 
         if missing_columns:
             st.warning(
-                "Some expected columns are missing from the dataset: "
+                "Some expected dataset columns are missing: "
                 + ", ".join(missing_columns)
             )
         else:
@@ -332,6 +423,7 @@ if DATA_FILE.exists():
                 st.info("No valid dates are available for the chart.")
 
             st.subheader("🗂️ Recent Dataset Records")
+
             st.dataframe(
                 df.tail(10),
                 use_container_width=True,
@@ -342,9 +434,7 @@ if DATA_FILE.exists():
         st.error(f"Could not read historical data: {error}")
 
 else:
-    st.info(
-        "Historical dataset not found. Generate the dataset to view charts."
-    )
+    st.info("Historical dataset not found. Generate the dataset to view charts.")
 
 
 # ---------------- MODEL EVALUATION ----------------
@@ -357,7 +447,9 @@ if METRICS_FILE.exists():
             metrics = json.load(file)
 
         st.markdown("### 🧠 Best Performing Model")
-        st.success(f"Selected model: {metrics.get('best_model', 'Not available')}")
+        st.success(
+            f"Selected model: {metrics.get('best_model', 'Not available')}"
+        )
 
         if "test_rows" in metrics:
             st.caption(
@@ -367,10 +459,9 @@ if METRICS_FILE.exists():
         results = metrics.get("results", [])
 
         if results:
-            results_df = pd.DataFrame(results)
             st.subheader("📊 Model Performance Comparison")
             st.dataframe(
-                results_df,
+                pd.DataFrame(results),
                 use_container_width=True,
                 hide_index=True
             )
@@ -393,7 +484,7 @@ else:
 # ---------------- FOOTER ----------------
 st.markdown("""
 <div class="footer">
-    🥗 <b>FoodWise AI</b> |
-    Smarter Meal Planning • Less Food Waste • A Greener Future 🌱
+    <p>🥗 <b>FoodWise AI</b></p>
+    <p>Smarter Meal Planning • Less Food Waste • A Greener Future 🌱</p>
 </div>
 """, unsafe_allow_html=True)
