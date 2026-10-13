@@ -1,0 +1,18 @@
+{
+  "best_model": "Random Forest",
+  "results": [
+    {
+      "model": "Linear Regression",
+      "MAE": 11.05,
+      "RMSE": 13.66,
+      "R2": 0.96
+    },
+    {
+      "model": "Random Forest",
+      "MAE": 10.97,
+      "RMSE": 13.58,
+      "R2": 0.96
+    }
+  ],
+  "test_rows": 73
+}

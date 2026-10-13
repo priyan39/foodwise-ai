@@ -1,0 +1,366 @@
+date,day_of_week,menu,students_expected,meals_prepared,meals_consumed,food_waste_kg
+2025-01-01,Wednesday,South Indian,321,304,296,1.04
+2025-01-02,Thursday,Variety Rice,288,317,272,5.98
+2025-01-03,Friday,Chapati,279,293,256,7.48
+2025-01-04,Saturday,Variety Rice,189,191,168,2.91
+2025-01-05,Sunday,Chapati,99,118,88,6.51
+2025-01-06,Monday,North Indian,336,337,318,2.36
+2025-01-07,Tuesday,North Indian,291,302,291,2.38
+2025-01-08,Wednesday,North Indian,262,276,239,4.92
+2025-01-09,Thursday,South Indian,309,299,275,3.93
+2025-01-10,Friday,South Indian,329,351,315,7.22
+2025-01-11,Saturday,Chapati,214,215,195,2.68
+2025-01-12,Sunday,Chapati,137,141,136,0.95
+2025-01-13,Monday,North Indian,322,293,287,0.79
+2025-01-14,Tuesday,South Indian,277,270,238,6.29
+2025-01-15,Wednesday,Variety Rice,303,322,285,4.55
+2025-01-16,Thursday,North Indian,265,251,229,4.52
+2025-01-17,Friday,South Indian,250,258,216,7.82
+2025-01-18,Saturday,North Indian,153,178,151,4.34
+2025-01-19,Sunday,North Indian,102,93,82,2.11
+2025-01-20,Monday,Variety Rice,280,285,242,8.15
+2025-01-21,Tuesday,South Indian,284,274,251,4.21
+2025-01-22,Wednesday,Variety Rice,267,235,217,3.8
+2025-01-23,Thursday,Chapati,284,293,260,6.53
+2025-01-24,Friday,North Indian,313,290,282,1.68
+2025-01-25,Saturday,South Indian,153,159,136,4.09
+2025-01-26,Sunday,Variety Rice,112,142,102,6.53
+2025-01-27,Monday,North Indian,302,308,278,4.85
+2025-01-28,Tuesday,South Indian,323,307,301,0.81
+2025-01-29,Wednesday,Variety Rice,233,228,211,3.03
+2025-01-30,Thursday,Chapati,278,275,256,4.1
+2025-01-31,Friday,North Indian,283,293,277,2.71
+2025-02-01,Saturday,North Indian,180,192,149,6.31
+2025-02-02,Sunday,Chapati,118,131,105,5.27
+2025-02-03,Monday,South Indian,337,298,281,3.18
+2025-02-04,Tuesday,South Indian,235,250,234,3.15
+2025-02-05,Wednesday,North Indian,234,233,219,2.46
+2025-02-06,Thursday,South Indian,291,307,287,3.03
+2025-02-07,Friday,South Indian,344,344,302,8.97
+2025-02-08,Saturday,North Indian,157,134,123,2.41
+2025-02-09,Sunday,South Indian,86,117,82,6.02
+2025-02-10,Monday,North Indian,261,267,246,2.72
+2025-02-11,Tuesday,North Indian,316,303,268,5.04
+2025-02-12,Wednesday,South Indian,236,261,226,6.3
+2025-02-13,Thursday,South Indian,314,305,265,7.91
+2025-02-14,Friday,North Indian,347,359,316,6.15
+2025-02-15,Saturday,South Indian,166,149,139,1.71
+2025-02-16,Sunday,Chapati,134,141,113,5.36
+2025-02-17,Monday,South Indian,316,311,267,7.43
+2025-02-18,Tuesday,North Indian,286,312,280,6.8
+2025-02-19,Wednesday,North Indian,223,246,207,5.23
+2025-02-20,Thursday,South Indian,318,340,318,4.69
+2025-02-21,Friday,Variety Rice,325,330,291,5.11
+2025-02-22,Saturday,South Indian,167,182,143,6.75
+2025-02-23,Sunday,Chapati,146,171,131,6.3
+2025-02-24,Monday,Chapati,275,259,243,2.32
+2025-02-25,Tuesday,North Indian,255,269,255,1.83
+2025-02-26,Wednesday,Chapati,228,226,214,1.81
+2025-02-27,Thursday,Chapati,340,346,336,1.48
+2025-02-28,Friday,Variety Rice,240,237,203,4.67
+2025-03-01,Saturday,South Indian,213,212,205,1.12
+2025-03-02,Sunday,Chapati,149,163,138,3.11
+2025-03-03,Monday,North Indian,243,260,229,5.01
+2025-03-04,Tuesday,Variety Rice,256,238,231,0.91
+2025-03-05,Wednesday,South Indian,329,315,282,6.74
+2025-03-06,Thursday,South Indian,324,357,315,8.31
+2025-03-07,Friday,Variety Rice,304,328,290,6.51
+2025-03-08,Saturday,Variety Rice,224,241,201,7.36
+2025-03-09,Sunday,South Indian,84,89,79,1.43
+2025-03-10,Monday,North Indian,268,259,237,4.15
+2025-03-11,Tuesday,North Indian,250,267,250,2.86
+2025-03-12,Wednesday,Chapati,263,280,255,5.01
+2025-03-13,Thursday,Variety Rice,292,293,267,5.03
+2025-03-14,Friday,South Indian,246,274,230,5.7
+2025-03-15,Saturday,Variety Rice,195,187,153,4.55
+2025-03-16,Sunday,Chapati,92,127,90,7.38
+2025-03-17,Monday,Chapati,343,298,291,1.27
+2025-03-18,Tuesday,South Indian,241,239,227,2.0
+2025-03-19,Wednesday,Variety Rice,288,304,278,4.68
+2025-03-20,Thursday,North Indian,238,234,191,5.54
+2025-03-21,Friday,North Indian,306,284,271,1.99
+2025-03-22,Saturday,Variety Rice,205,238,197,6.41
+2025-03-23,Sunday,Variety Rice,102,106,95,1.8
+2025-03-24,Monday,Variety Rice,270,293,250,8.52
+2025-03-25,Tuesday,Chapati,300,303,279,4.6
+2025-03-26,Wednesday,Chapati,344,353,313,5.29
+2025-03-27,Thursday,Variety Rice,282,295,266,4.8
+2025-03-28,Friday,Variety Rice,328,294,277,2.55
+2025-03-29,Saturday,North Indian,186,208,166,9.23
+2025-03-30,Sunday,South Indian,128,144,128,3.52
+2025-03-31,Monday,South Indian,307,325,293,3.93
+2025-04-01,Tuesday,Chapati,252,232,218,1.96
+2025-04-02,Wednesday,South Indian,339,321,316,0.63
+2025-04-03,Thursday,South Indian,327,331,302,5.94
+2025-04-04,Friday,South Indian,227,224,215,1.71
+2025-04-05,Saturday,Chapati,212,212,173,5.17
+2025-04-06,Sunday,Variety Rice,118,138,103,4.74
+2025-04-07,Monday,Chapati,316,280,271,1.96
+2025-04-08,Tuesday,Variety Rice,318,291,261,3.73
+2025-04-09,Wednesday,South Indian,335,344,324,2.77
+2025-04-10,Thursday,South Indian,269,292,247,8.26
+2025-04-11,Friday,Chapati,294,290,263,4.8
+2025-04-12,Saturday,North Indian,188,218,185,4.45
+2025-04-13,Sunday,North Indian,129,150,129,2.8
+2025-04-14,Monday,Chapati,256,256,219,6.79
+2025-04-15,Tuesday,Variety Rice,347,321,300,3.76
+2025-04-16,Wednesday,Variety Rice,261,242,218,3.42
+2025-04-17,Thursday,North Indian,232,239,211,5.17
+2025-04-18,Friday,Variety Rice,305,286,267,3.1
+2025-04-19,Saturday,Variety Rice,187,198,168,5.81
+2025-04-20,Sunday,Variety Rice,89,122,80,8.4
+2025-04-21,Monday,South Indian,261,297,257,5.02
+2025-04-22,Tuesday,Chapati,230,218,202,2.42
+2025-04-23,Wednesday,South Indian,317,284,251,5.19
+2025-04-24,Thursday,Chapati,312,289,278,1.72
+2025-04-25,Friday,Variety Rice,345,366,344,4.15
+2025-04-26,Saturday,North Indian,154,172,139,4.0
+2025-04-27,Sunday,Variety Rice,133,135,109,5.29
+2025-04-28,Monday,Chapati,349,352,315,4.96
+2025-04-29,Tuesday,Chapati,285,290,267,4.5
+2025-04-30,Wednesday,South Indian,276,265,248,3.58
+2025-05-01,Thursday,South Indian,343,311,305,1.01
+2025-05-02,Friday,Chapati,296,280,264,3.27
+2025-05-03,Saturday,South Indian,215,230,199,6.08
+2025-05-04,Sunday,Variety Rice,131,145,125,4.09
+2025-05-05,Monday,North Indian,283,303,283,4.22
+2025-05-06,Tuesday,Variety Rice,259,269,240,4.93
+2025-05-07,Wednesday,Chapati,289,291,246,8.24
+2025-05-08,Thursday,Chapati,271,259,247,1.47
+2025-05-09,Friday,Variety Rice,341,320,310,1.21
+2025-05-10,Saturday,Variety Rice,178,185,169,3.49
+2025-05-11,Sunday,Chapati,142,162,138,4.61
+2025-05-12,Monday,North Indian,346,330,322,1.55
+2025-05-13,Tuesday,South Indian,326,325,302,4.99
+2025-05-14,Wednesday,South Indian,348,365,321,6.8
+2025-05-15,Thursday,Variety Rice,220,192,182,1.69
+2025-05-16,Friday,Chapati,349,317,303,2.79
+2025-05-17,Saturday,North Indian,198,185,177,1.7
+2025-05-18,Sunday,North Indian,96,96,90,0.79
+2025-05-19,Monday,Chapati,308,300,295,0.97
+2025-05-20,Tuesday,Chapati,271,261,224,6.74
+2025-05-21,Wednesday,South Indian,332,296,281,1.84
+2025-05-22,Thursday,Variety Rice,319,340,319,3.02
+2025-05-23,Friday,North Indian,331,357,315,7.52
+2025-05-24,Saturday,North Indian,180,178,157,2.91
+2025-05-25,Sunday,Variety Rice,127,144,125,4.18
+2025-05-26,Monday,Variety Rice,258,240,231,1.98
+2025-05-27,Tuesday,Variety Rice,332,342,309,6.98
+2025-05-28,Wednesday,South Indian,285,266,258,1.12
+2025-05-29,Thursday,South Indian,292,271,266,0.77
+2025-05-30,Friday,North Indian,275,295,270,3.71
+2025-05-31,Saturday,Variety Rice,172,178,137,8.65
+2025-06-01,Sunday,North Indian,149,175,140,5.25
+2025-06-02,Monday,Chapati,251,244,225,2.82
+2025-06-03,Tuesday,Chapati,227,244,216,4.59
+2025-06-04,Wednesday,Chapati,282,289,274,3.15
+2025-06-05,Thursday,Chapati,254,263,226,4.82
+2025-06-06,Friday,North Indian,305,345,302,5.31
+2025-06-07,Saturday,North Indian,222,227,183,6.36
+2025-06-08,Sunday,Variety Rice,149,168,145,2.88
+2025-06-09,Monday,Chapati,234,259,218,5.77
+2025-06-10,Tuesday,Variety Rice,348,335,318,2.04
+2025-06-11,Wednesday,North Indian,234,235,226,1.52
+2025-06-12,Thursday,Variety Rice,223,216,198,3.67
+2025-06-13,Friday,Variety Rice,254,249,207,7.91
+2025-06-14,Saturday,North Indian,170,171,157,1.75
+2025-06-15,Sunday,North Indian,141,160,126,4.55
+2025-06-16,Monday,South Indian,340,330,292,4.98
+2025-06-17,Tuesday,South Indian,312,312,282,5.37
+2025-06-18,Wednesday,Variety Rice,331,311,285,3.54
+2025-06-19,Thursday,Variety Rice,337,362,326,7.63
+2025-06-20,Friday,Variety Rice,279,281,273,1.61
+2025-06-21,Saturday,North Indian,155,170,152,2.55
+2025-06-22,Sunday,Variety Rice,125,127,109,2.78
+2025-06-23,Monday,North Indian,222,220,181,7.56
+2025-06-24,Tuesday,Variety Rice,328,346,328,2.39
+2025-06-25,Wednesday,Chapati,238,264,227,8.11
+2025-06-26,Thursday,Variety Rice,254,233,228,0.89
+2025-06-27,Friday,North Indian,236,252,230,4.01
+2025-06-28,Saturday,Variety Rice,157,139,123,2.39
+2025-06-29,Sunday,North Indian,149,172,133,5.58
+2025-06-30,Monday,Chapati,334,298,286,1.92
+2025-07-01,Tuesday,Variety Rice,318,342,310,6.27
+2025-07-02,Wednesday,Variety Rice,348,358,315,8.58
+2025-07-03,Thursday,South Indian,266,260,234,5.43
+2025-07-04,Friday,Variety Rice,271,276,257,2.62
+2025-07-05,Saturday,Chapati,200,209,196,1.84
+2025-07-06,Sunday,North Indian,142,173,138,6.01
+2025-07-07,Monday,South Indian,317,347,304,5.61
+2025-07-08,Tuesday,Variety Rice,322,347,305,5.46
+2025-07-09,Wednesday,South Indian,246,244,231,2.05
+2025-07-10,Thursday,Chapati,325,351,317,5.17
+2025-07-11,Friday,North Indian,299,276,271,1.07
+2025-07-12,Saturday,Variety Rice,185,185,161,3.83
+2025-07-13,Sunday,Chapati,103,92,81,2.37
+2025-07-14,Monday,Variety Rice,251,242,214,4.14
+2025-07-15,Tuesday,Chapati,282,254,241,2.17
+2025-07-16,Wednesday,North Indian,253,214,206,1.48
+2025-07-17,Thursday,Chapati,308,288,263,3.74
+2025-07-18,Friday,North Indian,320,321,312,1.96
+2025-07-19,Saturday,Chapati,172,192,148,6.62
+2025-07-20,Sunday,South Indian,110,107,99,1.39
+2025-07-21,Monday,Variety Rice,241,218,209,1.61
+2025-07-22,Tuesday,Chapati,288,277,242,5.62
+2025-07-23,Wednesday,South Indian,319,346,317,3.83
+2025-07-24,Thursday,Chapati,250,255,214,8.39
+2025-07-25,Friday,Variety Rice,243,235,223,2.29
+2025-07-26,Saturday,South Indian,154,180,141,6.75
+2025-07-27,Sunday,Variety Rice,103,97,82,3.13
+2025-07-28,Monday,South Indian,321,332,309,3.99
+2025-07-29,Tuesday,Variety Rice,328,304,282,4.73
+2025-07-30,Wednesday,South Indian,283,300,280,2.82
+2025-07-31,Thursday,Variety Rice,241,225,210,3.18
+2025-08-01,Friday,South Indian,262,297,253,7.62
+2025-08-02,Saturday,North Indian,198,210,198,2.33
+2025-08-03,Sunday,North Indian,139,137,126,1.38
+2025-08-04,Monday,Chapati,264,271,264,1.4
+2025-08-05,Tuesday,Chapati,328,325,312,2.39
+2025-08-06,Wednesday,Chapati,220,256,215,6.8
+2025-08-07,Thursday,South Indian,324,288,278,1.59
+2025-08-08,Friday,South Indian,340,327,293,6.32
+2025-08-09,Saturday,North Indian,198,213,184,4.47
+2025-08-10,Sunday,Variety Rice,86,118,86,5.28
+2025-08-11,Monday,North Indian,336,347,324,4.28
+2025-08-12,Tuesday,Variety Rice,242,259,242,3.3
+2025-08-13,Wednesday,North Indian,272,286,257,6.11
+2025-08-14,Thursday,Variety Rice,263,262,240,3.54
+2025-08-15,Friday,North Indian,277,258,240,3.34
+2025-08-16,Saturday,Variety Rice,205,194,162,4.47
+2025-08-17,Sunday,South Indian,146,159,119,5.32
+2025-08-18,Monday,Chapati,256,241,225,3.38
+2025-08-19,Tuesday,Variety Rice,317,288,275,2.8
+2025-08-20,Wednesday,Variety Rice,299,269,262,1.52
+2025-08-21,Thursday,North Indian,288,296,275,3.36
+2025-08-22,Friday,Variety Rice,334,318,306,2.46
+2025-08-23,Saturday,Chapati,170,180,162,3.3
+2025-08-24,Sunday,Chapati,137,152,137,3.06
+2025-08-25,Monday,Chapati,348,343,329,2.35
+2025-08-26,Tuesday,Chapati,302,288,265,3.43
+2025-08-27,Wednesday,North Indian,253,249,233,3.23
+2025-08-28,Thursday,South Indian,258,262,222,6.14
+2025-08-29,Friday,North Indian,324,345,312,4.34
+2025-08-30,Saturday,Chapati,152,163,143,2.71
+2025-08-31,Sunday,South Indian,108,138,108,3.81
+2025-09-01,Monday,Chapati,238,252,228,4.47
+2025-09-02,Tuesday,Chapati,279,283,274,1.46
+2025-09-03,Wednesday,Variety Rice,292,310,273,8.11
+2025-09-04,Thursday,Variety Rice,223,262,217,8.68
+2025-09-05,Friday,South Indian,347,329,317,1.5
+2025-09-06,Saturday,North Indian,174,192,160,6.5
+2025-09-07,Sunday,Chapati,146,163,141,4.4
+2025-09-08,Monday,South Indian,284,305,277,3.63
+2025-09-09,Tuesday,Chapati,262,244,233,1.38
+2025-09-10,Wednesday,South Indian,220,206,197,1.67
+2025-09-11,Thursday,South Indian,317,310,272,7.83
+2025-09-12,Friday,North Indian,327,301,295,0.96
+2025-09-13,Saturday,South Indian,189,201,166,5.96
+2025-09-14,Sunday,Variety Rice,130,124,100,3.38
+2025-09-15,Monday,Variety Rice,318,294,276,2.48
+2025-09-16,Tuesday,South Indian,225,248,210,5.08
+2025-09-17,Wednesday,Chapati,305,289,277,2.61
+2025-09-18,Thursday,Chapati,345,330,290,7.42
+2025-09-19,Friday,Chapati,257,271,236,7.1
+2025-09-20,Saturday,Variety Rice,174,177,143,6.13
+2025-09-21,Sunday,North Indian,123,125,110,3.04
+2025-09-22,Monday,North Indian,293,275,265,1.51
+2025-09-23,Tuesday,Variety Rice,279,295,267,3.36
+2025-09-24,Wednesday,South Indian,247,279,243,7.52
+2025-09-25,Thursday,South Indian,232,233,209,3.02
+2025-09-26,Friday,North Indian,248,237,220,2.4
+2025-09-27,Saturday,Variety Rice,218,194,185,1.24
+2025-09-28,Sunday,South Indian,126,146,106,5.02
+2025-09-29,Monday,Variety Rice,266,263,241,4.59
+2025-09-30,Tuesday,South Indian,224,223,180,5.66
+2025-10-01,Wednesday,North Indian,301,312,268,8.89
+2025-10-02,Thursday,Chapati,310,325,299,4.16
+2025-10-03,Friday,South Indian,262,303,261,5.76
+2025-10-04,Saturday,Chapati,210,237,192,7.19
+2025-10-05,Sunday,Chapati,113,115,105,1.3
+2025-10-06,Monday,Chapati,333,354,322,5.22
+2025-10-07,Tuesday,North Indian,324,332,302,4.77
+2025-10-08,Wednesday,Chapati,263,270,250,3.72
+2025-10-09,Thursday,North Indian,265,268,241,4.26
+2025-10-10,Friday,Variety Rice,232,252,208,6.22
+2025-10-11,Saturday,North Indian,209,226,198,5.68
+2025-10-12,Sunday,Chapati,92,121,92,6.22
+2025-10-13,Monday,Chapati,271,305,260,5.57
+2025-10-14,Tuesday,South Indian,342,346,314,6.22
+2025-10-15,Wednesday,South Indian,331,332,309,4.57
+2025-10-16,Thursday,South Indian,342,360,342,3.18
+2025-10-17,Friday,South Indian,255,228,217,1.91
+2025-10-18,Saturday,North Indian,163,199,155,6.11
+2025-10-19,Sunday,Chapati,148,153,112,8.24
+2025-10-20,Monday,Variety Rice,283,275,241,5.52
+2025-10-21,Tuesday,Variety Rice,342,319,299,3.99
+2025-10-22,Wednesday,South Indian,329,328,294,4.16
+2025-10-23,Thursday,Chapati,343,347,321,3.54
+2025-10-24,Friday,Variety Rice,307,272,262,1.66
+2025-10-25,Saturday,South Indian,224,220,194,3.61
+2025-10-26,Sunday,North Indian,93,101,93,1.61
+2025-10-27,Monday,North Indian,347,345,300,8.25
+2025-10-28,Tuesday,Chapati,267,267,245,3.82
+2025-10-29,Wednesday,North Indian,350,359,346,1.95
+2025-10-30,Thursday,Variety Rice,288,290,248,8.56
+2025-10-31,Friday,Chapati,235,257,214,7.46
+2025-11-01,Saturday,South Indian,148,176,134,6.91
+2025-11-02,Sunday,Chapati,92,122,78,6.54
+2025-11-03,Monday,South Indian,346,315,305,2.03
+2025-11-04,Tuesday,Variety Rice,236,260,215,5.97
+2025-11-05,Wednesday,Chapati,324,344,300,9.56
+2025-11-06,Thursday,Chapati,277,283,250,5.23
+2025-11-07,Friday,North Indian,267,283,249,6.73
+2025-11-08,Saturday,South Indian,204,227,204,2.84
+2025-11-09,Sunday,North Indian,141,154,141,2.23
+2025-11-10,Monday,Variety Rice,342,370,342,3.79
+2025-11-11,Tuesday,South Indian,342,309,302,1.48
+2025-11-12,Wednesday,North Indian,290,299,274,4.54
+2025-11-13,Thursday,Chapati,305,345,305,5.16
+2025-11-14,Friday,North Indian,249,272,233,7.69
+2025-11-15,Saturday,North Indian,153,170,143,5.0
+2025-11-16,Sunday,South Indian,91,106,84,3.01
+2025-11-17,Monday,Variety Rice,342,318,289,4.99
+2025-11-18,Tuesday,North Indian,224,204,179,4.22
+2025-11-19,Wednesday,Variety Rice,282,292,257,5.0
+2025-11-20,Thursday,Variety Rice,314,315,284,5.17
+2025-11-21,Friday,North Indian,337,341,304,6.84
+2025-11-22,Saturday,Chapati,206,222,185,7.61
+2025-11-23,Sunday,Chapati,101,120,101,4.11
+2025-11-24,Monday,Variety Rice,268,270,250,3.87
+2025-11-25,Tuesday,Variety Rice,284,256,233,3.06
+2025-11-26,Wednesday,North Indian,246,225,211,2.06
+2025-11-27,Thursday,Chapati,293,294,285,1.26
+2025-11-28,Friday,North Indian,258,272,238,6.49
+2025-11-29,Saturday,Chapati,213,191,179,1.62
+2025-11-30,Sunday,North Indian,97,95,78,3.24
+2025-12-01,Monday,South Indian,229,239,211,5.64
+2025-12-02,Tuesday,Variety Rice,246,254,231,3.59
+2025-12-03,Wednesday,South Indian,243,259,225,6.64
+2025-12-04,Thursday,South Indian,242,230,213,2.79
+2025-12-05,Friday,Variety Rice,259,245,218,5.75
+2025-12-06,Saturday,Chapati,173,171,146,5.5
+2025-12-07,Sunday,North Indian,111,145,104,6.81
+2025-12-08,Monday,Chapati,230,200,176,3.86
+2025-12-09,Tuesday,North Indian,279,276,248,3.66
+2025-12-10,Wednesday,Variety Rice,249,261,225,7.46
+2025-12-11,Thursday,Chapati,235,251,210,6.02
+2025-12-12,Friday,Chapati,299,324,279,6.73
+2025-12-13,Saturday,Variety Rice,161,145,134,2.36
+2025-12-14,Sunday,Chapati,84,112,73,5.36
+2025-12-15,Monday,South Indian,326,319,283,6.76
+2025-12-16,Tuesday,South Indian,350,339,301,8.23
+2025-12-17,Wednesday,Variety Rice,254,250,217,6.52
+2025-12-18,Thursday,North Indian,299,292,256,5.09
+2025-12-19,Friday,Variety Rice,220,226,185,5.77
+2025-12-20,Saturday,South Indian,219,230,204,4.15
+2025-12-21,Sunday,North Indian,91,91,71,3.22
+2025-12-22,Monday,North Indian,282,306,271,7.64
+2025-12-23,Tuesday,Variety Rice,241,239,218,3.04
+2025-12-24,Wednesday,Chapati,315,330,309,2.94
+2025-12-25,Thursday,North Indian,242,236,224,2.4
+2025-12-26,Friday,South Indian,338,355,326,4.22
+2025-12-27,Saturday,North Indian,166,176,166,1.42
+2025-12-28,Sunday,North Indian,124,130,109,3.86
+2025-12-29,Monday,North Indian,322,312,282,6.15
+2025-12-30,Tuesday,Chapati,229,216,202,2.11
+2025-12-31,Wednesday,South Indian,301,296,287,1.92
